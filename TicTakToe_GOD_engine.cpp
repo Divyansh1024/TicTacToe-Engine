@@ -3,10 +3,10 @@
 
 auto start_time = std::chrono::high_resolution_clock::now();
 
-constexpr int cross = 1;
-constexpr int circle = -1;
-constexpr int empty = 0;
-constexpr int still_going = 6;
+const int cross = 1;
+const int circle = -1;
+const int empty = 0;
+const int still_going = 6;
 
 int max(int a, int b)
 {
